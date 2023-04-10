@@ -1,3 +1,5 @@
+//NEST.js
+
 function Logger(logString:string){
     return function(constructor:Function){
         console.log(logString);
